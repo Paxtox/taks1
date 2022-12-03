@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    --bs-gutter-x:0;
+}
+.logo{
+    width: 200px;
+}
+.div-nav{
+    padding: 1rem;
+    background-color: rgb(247, 247, 224);
+}
+
+h1{
+    background-color: rgb(201, 196, 189);
+    padding: 2rem;
+    border-bottom: 10px solid rgb(32, 32, 28);
+    margin: 0;
+}
+
+main{
+    background-color: rgb(128, 115, 115);
+    padding: 1rem;
+}
+.icon{
+    width: 25px;
+}
+
+.cards-container{
+    padding: 1rem;
+}
+
+.card{
+    padding: 0%;
+    height: 45vh;
+    background-color: rgb(138, 132, 128);
+}
+.card img{
+    width: 95%;
+    height: 15vh;
+    object-fit: cover;
+    border-radius: .5rem;
+    margin: .2rem;
+}
+
+.link{
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(177, 145, 145, 0.63);
+    border-radius: .2rem;
+    border: 2px solid rgb(85, 77, 70);
+    color: black;
+    padding: 0 .2rem;
+}
+
+.btn-primary{
+    background-color: #634c56;
+    border: .5px solid #81606f;
+}
+.bgTr{
+    background-color: red!important;
+    padding: .5rem!important;
+    font-size: 1.2rem;
+    border-bottom: 1px solid red;
+    border-collapse: collapse;
+}
+.table{
+    margin: 3rem 0;
+}
+.table td{
+    border-collapse: collapse;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+}
+
+footer{
+    padding: 3rem;
+    background-color: rgba(158, 110, 89, 0.63);
+    border-top: 10px solid rgb(112, 93, 76);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #b34a7b;
+}
