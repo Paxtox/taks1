@@ -6,7 +6,7 @@
 
 .row{
     --bs-gutter-x:0;
-}
+} 
 .logo{
     width: 200px;
 }
@@ -84,4 +84,8 @@ footer{
     font-size: 1.5rem;
     font-weight: 600;
     color: #b34a7b;
+}
+
+h6{
+    margin-bottom: 0;
 }
