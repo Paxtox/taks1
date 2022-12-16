@@ -89,3 +89,15 @@ footer{
 h6{
     margin-bottom: 0;
 }
+
+#contact{
+    height: 65vh;
+}
+
+#details{
+    height: 65vh;
+}
+
+#image-details{
+    height: 40vh;
+}
