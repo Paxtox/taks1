@@ -48,15 +48,13 @@ function renderCategoriesOnCheckBoxes ( categories, container) {
 
 containerCheck.addEventListener("change", (e) => {
 
-  let arrayCategoryCheckedFilter = filterTwoTypesOfSearchings (events)
+  let arrayCategoryCheckedFilter = filterTwoTypesOfSearchings (pastEvents)
   renderCards(arrayCategoryCheckedFilter, cardContainer);
- 
-
 });
 
 searchBar.addEventListener("input", () => {
-   let filterByTwo = filterTwoTypesOfSearchings (events)
-   renderCards(filterByTwo, cardContainer);
+  let filterByTwo = filterTwoTypesOfSearchings (pastEvents)
+  renderCards(filterByTwo, cardContainer);
   
 })
 

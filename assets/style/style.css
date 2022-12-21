@@ -75,7 +75,9 @@ main{
     border-collapse: collapse;
     padding: 1rem;
     border-bottom: 1px solid white;
+    width: 30vw;
 }
+
 
 footer{
     padding: 3rem;

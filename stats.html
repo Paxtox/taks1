@@ -36,77 +36,50 @@
 
 
 <main>
-    <table class="table table-sm">
+    <table class="table table-sm table-bordered border-Light">
+        <thead>
         <tr>
-            <th class="bgTr" colspan="3">Events Statistics</th>
+            <th class="bgTr" colspan="3">events statistics</th>
         </tr>
         <tr>
             <td>Events with the highest percentage of attendance</td>
             <td>Events with the lowest percentage of attendance</td>
             <td>Event with larger capacity</td>
         </tr>
-        <tr>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-        </tr>
+        </thead>
+        <tbody id="tabla1">
+        </tbody>
+    </table>
+
+<table class="table table-sm table-bordered border-Light">
+    <thead>
         <tr>
             <th class="bgTr" colspan="3">Upcoming events statistics by category</th>
         </tr>
         <tr>
-            <td>Categories</td>
-            <td>Revenues</td>
-            <td>Percentage of attendance</td>
+            <td >Categories</td>
+            <td >Revenues</td>
+            <td >Percentage of attendance</td>
         </tr>
+    </thead>
+    <tbody id="tabla-futura">
+    </tbody>
+</table>
+
+<table class="table table-sm table-bordered border-Light">
+    <thead>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-        </tr>
-        <tr>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-        </tr>
-        <tr>
-            <th class="bgTr" colspan="3">Past Events statistic by category</th>
+            <th class="bgTr" colspan="3">Past events statistics by category</th>
         </tr>
         <tr>
             <td>Categories</td>
             <td>Revenues</td>
             <td>Percentage of attendance</td>
         </tr>
-        <tr>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-        </tr>
-        <tr>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-        </tr>
-        <tr>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-        </tr>
-        <tr>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-        </tr>
-        <tr>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-        </tr>
-    </table>
+    </thead>
+    <tbody id="tabla-pasada">
+    </tbody>
+</table>
 </main>
 
 
@@ -120,5 +93,6 @@
 </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./stats.js"></script>
 </body>
 </html>

@@ -45,13 +45,11 @@ containerCheck.addEventListener("change", (e) => {
 
   let arrayCategoryCheckedFilter = filterTwoTypesOfSearchings (events)
   renderCards(arrayCategoryCheckedFilter, cardContainer);
- 
-
 });
 
 searchBar.addEventListener("input", () => {
-   let filterByTwo = filterTwoTypesOfSearchings (events)
-   renderCards(filterByTwo, cardContainer);
+  let filterByTwo = filterTwoTypesOfSearchings (events)
+  renderCards(filterByTwo, cardContainer);
   
 })
 
